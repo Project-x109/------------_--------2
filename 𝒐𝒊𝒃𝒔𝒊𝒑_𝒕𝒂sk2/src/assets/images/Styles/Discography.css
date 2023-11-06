@@ -1,0 +1,35 @@
+/* Biography.css */
+
+.display-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distribute elements evenly in the row */
+  gap: 20px; /* Adjust the gap between elements as needed */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three items per row */
+  gap: 20px; /* Adjust the gap between items as needed */
+}
+.biography-container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.biography-header {
+  text-align: center;
+}
+
+.profile-image {
+  max-width: 50%;
+  /*  border-radius: 50%; */
+}
+
+.biography-content {
+  padding: 20px;
+  text-align: justify;
+  font-size: calc(8px + 2vmin);
+}
+
+/* Add more CSS rules for styling as needed */
